@@ -1,5 +1,3 @@
-import initialLoad from './restaurantDetails'
-const content = document.querySelector('#content');
+import about from './about'
 
-initialLoad();
-console.log('using webpack');
+about();
