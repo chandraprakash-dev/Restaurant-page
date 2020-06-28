@@ -1,8 +1,6 @@
-const contact = function () {
-    const contentContainer = document.querySelector('#content-container');
-
+const contact = function (contentContainer) {
     const content = document.createElement('div');
-    content.id = 'contact-content';
+    content.id = 'Contact-content';
 
     const h1 = document.createElement('h1');
     h1.textContent = "Contact Us";

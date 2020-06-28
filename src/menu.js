@@ -1,8 +1,6 @@
-const menu = function () {
-    const contentContainer = document.querySelector('#content-container');
-
+const menu = function (contentContainer) {
     const content = document.createElement('div');
-    content.id = 'menu-content';
+    content.id = 'Menu-content';
 
     const h1 = document.createElement('h1');
     h1.textContent = "Menu";
