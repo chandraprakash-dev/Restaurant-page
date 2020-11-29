@@ -1,3 +1,3 @@
 # Restaurant page
 
-Live demo: https://codesurfer3022.github.io/Restaurant-page/
+Live demo: https://chandraprakash-dev.github.io/Restaurant-page/
