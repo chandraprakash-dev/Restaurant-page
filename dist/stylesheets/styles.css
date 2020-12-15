@@ -1,31 +1,29 @@
 html {
     height: 100vh;
-    width: 100vw;
+    display: flex;
 }
 
 body {
-    height: 100%;
-    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: "Helvetica", sans-serif;
 }
 
 header{
-    background-color: mediumspringgreen;
-    height: 25%;
-    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     background-color: deepskyblue;
-    height: 60%;
+    flex: 3;
 }
 
 #container {
-    height: 60%;
-    width: 80%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #tabs {
@@ -37,9 +35,11 @@ main {
 }
 
 footer {
-    background-color: deeppink;
-    position: absolute;
-    bottom: 0;
-    height: 15%;
-    width: 100%;
+    background: yellow;
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    height: 100px;
+    /*width: 100%;*/
+    text-align: center;
 }
