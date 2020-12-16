@@ -30,7 +30,7 @@ function displayContent() {
 const contentContainer = document.querySelector('#content-container');
 about(contentContainer);
 
-const tabs = document.querySelector('#tabs');
+const tabs = document.querySelector('ul');
 for(let child of tabs.children) {
     child.addEventListener('click', displayContent);
 }
