@@ -6,6 +6,16 @@ function clearContent() {
     contentContainer.removeChild(contentContainer.firstElementChild);
 }
 
+function highlight(content) {
+    // remove any previously highlighted links
+    const actives = document.querySelectorAll('.active');
+    if(actives) {
+        actives.forEach(active => active.classList.remove('active'));
+    }
+    const link = document.querySelector(`#${content}`);
+    link.classList.add('active');
+}
+
 function displayContent() {
     const content = contentContainer.firstElementChild;
     const requiredContent = this.textContent;
@@ -13,6 +23,7 @@ function displayContent() {
     if(requiredContent === currentContent) return;
 
     clearContent();
+    highlight(requiredContent);
     switch (requiredContent) {
         case 'Menu':
             menu(contentContainer);
