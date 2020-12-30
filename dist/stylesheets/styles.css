@@ -52,6 +52,10 @@ main {
 }
 
 #content-container {
+    padding: 20px;
+}
+
+#content-container {
     background: whitesmoke;
     width: 60%;
     height: 100%;
@@ -70,6 +74,21 @@ main img {
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+}
+
+#content-container div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#content-container p {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #666;
 }
 
 footer {

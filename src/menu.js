@@ -6,7 +6,9 @@ const menu = function (contentContainer) {
     h1.textContent = "Menu";
 
     const p = document.createElement('p');
-    p.textContent = "Enjoy the delicious sattvic vegeterian food";
+    p.textContent = "Enjoy the delicious sattvic vegeterian food. In the spirit of a warm welcome laced with endless surprises of decadent bliss, we at Sattvam are delighted to bring to you an unforgettable culinary experience and a rediscovery of true soulful food. Flourishing over 10,000 square feet in the heart of Bengaluru, we await you with succulent creations, located near you in Sadashivanagar and JP Nagar.\n" +
+      "\n" +
+      "Come experience a delectable Indian and Continental Cuisine served to you in an epic spread with a lack of choice being… unfound and zilch.";
 
     content.appendChild(h1);
     content.appendChild(p);
