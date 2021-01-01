@@ -6,9 +6,69 @@ const menu = function (contentContainer) {
     h1.textContent = "Menu";
 
     const p = document.createElement('p');
-    p.textContent = "Enjoy the delicious sattvic vegeterian food. In the spirit of a warm welcome laced with endless surprises of decadent bliss, we at Sattvam are delighted to bring to you an unforgettable culinary experience and a rediscovery of true soulful food. Flourishing over 10,000 square feet in the heart of Bengaluru, we await you with succulent creations, located near you in Sadashivanagar and JP Nagar.\n" +
-      "\n" +
-      "Come experience a delectable Indian and Continental Cuisine served to you in an epic spread with a lack of choice being… unfound and zilch.";
+    p.textContent = "Amuse Bouche\n" +
+      "Shukha Masala Puri & Aam Panna\n" +
+      "Soup\n" +
+      "Veg Sweet Corn Soup\n" +
+      "Starter\n" +
+      "Sarsowala Paneer Tikka\n" +
+      "Makkai Ki Galauti\n" +
+      "Subz Hariyali Seekh\n" +
+      "Aloo Matar Lifafa\n" +
+      "Chinese Starter\n" +
+      "Crispy Chilli Veg\n" +
+      "Gold Coin\n" +
+      "Salads\n" +
+      "Cabbage Coleslaw\n" +
+      "Pineapple Corn In Honey Chilli\n" +
+      "Kachumber Salad\n" +
+      "Garden Salad\n" +
+      "Chats\n" +
+      "Pani Puri\n" +
+      "Kachori Chaat\n" +
+      "Papdi Chaat\n" +
+      "Assorted Dhokla\n" +
+      "Main Course\n" +
+      "Dal Makhani\n" +
+      "Boondi Ki Kadhi\n" +
+      "Paneer Lalmirch\n" +
+      "Shahi Malai Kofta\n" +
+      "Aatishwali Subzi Malai\n" +
+      "Dum Aloo Capsicum\n" +
+      "Palak Samose Ki Sabzi\n" +
+      "Bhindi Masala\n" +
+      "Kheere Ka Raita\n" +
+      "Rice\n" +
+      "Sattvic Biriyani\n" +
+      "Indian Breads\n" +
+      "Roti & Nan.\n" +
+      "Kids Corner\n" +
+      "Tomato Cheese Bun\n" +
+      "Coleslaw Sandwich\n" +
+      "Mini Veg Puff\n" +
+      "South Indian\n" +
+      "Steamed Rice\n" +
+      "Rasam\n" +
+      "Beans Foogath\n" +
+      "Bisibelle Bhath\n" +
+      "Curd Rice\n" +
+      "Puliogere\n" +
+      "Masala Chitrana\n" +
+      "Chinese\n" +
+      "American Chopsuey\n" +
+      "Continental\n" +
+      "Vegetable Ginocchi\n" +
+      "Indian Dessert\n" +
+      "Phaldari Angoordana\n" +
+      "Orange Sandwich\n" +
+      "Sugarfree Rasmalai\n" +
+      "Fresh Cut Fruits\n" +
+      "Ice Creams\n" +
+      "Live Counters\n" +
+      "Mini Masala Dosa\n" +
+      "Vada Pav\n" +
+      "Live Pasta Station\n" +
+      "Ice Cream Teppanyaki"
 
     content.appendChild(h1);
     content.appendChild(p);
